@@ -25,8 +25,8 @@
     return h * 60 + m;
   }
 
-  function coursesForDay(day) {
-    return courses.filter((c) => {
+  function coursesForDay(day, list = courses) {
+    return list.filter((c) => {
       if (!c || !c.days) return false;
 
       const days = Array.isArray(c.days)
@@ -55,6 +55,20 @@
     const ampm = h < 12 ? 'am' : 'pm';
     return `${label}${ampm}`;
   }
+
+  // Rebuild a per-day map whenever `courses` changes
+  let dayCourses = {};
+
+  function buildDayCourses(list) {
+    const map = {};
+    for (const day of DAYS) {
+      map[day] = coursesForDay(day, list);
+    }
+    return map;
+  }
+
+  // Line fix to build
+  $: dayCourses = buildDayCourses(courses);
 </script>
 
 <div class="grid-container">
@@ -85,7 +99,7 @@
           {/each}
 
           <!-- one tall block per course that meets on this day -->
-          {#each coursesForDay(day) as course (course.id)}
+          {#each dayCourses[day] || [] as course (course.id)}
             <div class="class-block" style={blockStyle(course)}>
               <div class="class-name">{course.name}</div>
               <div class="class-meta">
