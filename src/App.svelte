@@ -219,8 +219,8 @@
       name: 'Introduction to Effective Speaking',
       location: 'Library',
       defaultDays: ['Wed','Thu','Fri'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15',
+      defaultStart: '12:00',
+      defaultEnd: '13:15',
       year: 'Third',
       semester: 'Summer'
     },
@@ -229,9 +229,9 @@
       key: 'CS4071',
       name: 'Design and Analysis of Algorithms',
       location: 'Rhodes',
-      defaultDays: ['Wed'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15',
+      defaultDays: ['Mon','Fri'],
+      defaultStart: '08:00',
+      defaultEnd: '09:15',
       year: 'Third',
       semester: 'Summer'
     },
@@ -240,9 +240,9 @@
       key: 'CS4092',
       name: 'Database Design an dDevelopment',
       location: 'Teachers Dyer',
-      defaultDays: ['Wed'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15',
+      defaultDays: ['Wed', 'Thu'],
+      defaultStart: '09:30',
+      defaultEnd: '11:15',
       year: 'Third',
       semester: 'Summer'
     },
@@ -251,9 +251,9 @@
       key: 'EECE3093C',
       name: 'Software Engineering',
       location: 'Baldwin',
-      defaultDays: ['Wed'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15',
+      defaultDays: ['Fri'],
+      defaultStart: '17:00',
+      defaultEnd: '17:15',
       year: 'Third',
       semester: 'Summer'
     },
@@ -262,9 +262,9 @@
       key: 'CS4033',
       name: 'Artificial Intelligence: Principles and Applications',
       location: 'DAAP',
-      defaultDays: ['Wed'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15',
+      defaultDays: ['Mon', 'Tue'],
+      defaultStart: '11:00',
+      defaultEnd: '12:15',
       year: 'Fourth',
       semester: 'Spring'
     },
@@ -273,9 +273,9 @@
       key: 'CS4065',
       name: 'Computer Networks and Networked Computing',
       location: 'Swift',
-      defaultDays: ['Wed'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15',
+      defaultDays: ['Tue'],
+      defaultStart: '08:00',
+      defaultEnd: '08:15',
       year: 'Fourth',
       semester: 'Spring'
     },
@@ -284,9 +284,9 @@
       key: 'EECE4029',
       name: 'Operating Systems & Systems Programming',
       location: 'Rhodes',
-      defaultDays: ['Wed'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15',
+      defaultDays: ['Thu'],
+      defaultStart: '07:00',
+      defaultEnd: '08:15',
       year: 'Fourth',
       semester: 'Spring'
     },
@@ -295,9 +295,9 @@
       key: 'ENGL4092',
       name: 'Technical and Scientific Writing',
       location: 'Online',
-      defaultDays: ['Wed'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15',
+      defaultDays: ['Mon','Tue','Wed'],
+      defaultStart: '17:00',
+      defaultEnd: '19:15',
       year: 'Fourth',
       semester: 'Spring'
     },
@@ -305,7 +305,7 @@
       key: 'CS5001',
       name: 'Computer Science Senior Design I',
       location: 'Teachers Dyer',
-      defaultDays: ['Wed'],
+      defaultDays: ['Wed','Thu'],
       defaultStart: '14:00',
       defaultEnd: '15:15',
       year: 'Fifth',
@@ -317,8 +317,8 @@
       name: 'The Theory of Formal Languages and Automata',
       location: 'Teachers Dyer',
       defaultDays: ['Wed'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15',
+      defaultStart: '11:00',
+      defaultEnd: '11:15',
       year: 'Fifth',
       semester: 'Fifth'
     },
@@ -327,9 +327,9 @@
       key: 'CS5002',
       name: 'Computer Science Senior Design II',
       location: 'Teachers Dyer',
-      defaultDays: ['Wed'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15',
+      defaultDays: ['Wed', 'Thu'],
+      defaultStart: '10:00',
+      defaultEnd: '11:15',
       year: 'Fifth',
       semester: 'Spring'
     },
@@ -338,9 +338,9 @@
       key: 'MATH2063',
       name: 'Multivariable Calculus',
       location: 'French',
-      defaultDays: ['Wed'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15'
+      defaultDays: ['Thu'],
+      defaultStart: '09:00',
+      defaultEnd: '10:15'
     },
 		
     {
@@ -348,24 +348,24 @@
       name: 'Ordinary Differential Equations',
       location: 'Teachers Dyer',
       defaultDays: ['Wed'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15'
+      defaultStart: '09:00',
+      defaultEnd: '10:15'
     },
 		
     {
       key: 'MATH4012',
       name: 'Differential Geometry and Topology',
       location: 'French',
-      defaultDays: ['Wed'],
-      defaultStart: '14:00',
-      defaultEnd: '15:15'
+      defaultDays: ['Tue'],
+      defaultStart: '10:00',
+      defaultEnd: '11:15'
     },
 		
     {
       key: 'MATH5107',
       name: 'Partial Differential Equations and Fourier Analysis',
       location: 'French',
-      defaultDays: ['Wed'],
+      defaultDays: ['Mon'],
       defaultStart: '14:00',
       defaultEnd: '15:15'
     },
@@ -374,7 +374,7 @@
       key: 'MATH5101',
       name: 'Advanced Calculus I',
       location: 'French',
-      defaultDays: ['Wed'],
+      defaultDays: ['Tue'],
       defaultStart: '14:00',
       defaultEnd: '15:15'
     },
@@ -392,7 +392,7 @@
       key: 'MATH3002',
       name: 'Introduction to Analysis',
       location: 'French',
-      defaultDays: ['Wed'],
+      defaultDays: ['Thu'],
       defaultStart: '14:00',
       defaultEnd: '15:15'
     },
@@ -401,7 +401,7 @@
       key: 'MATH5105',
       name: 'Introduction to Complex Analysis',
       location: 'French',
-      defaultDays: ['Wed'],
+      defaultDays: ['Fri'],
       defaultStart: '14:00',
       defaultEnd: '15:15'
     }
