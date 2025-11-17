@@ -244,6 +244,70 @@
       defaultDays: ['Wed'],
       defaultStart: '14:00',
       defaultEnd: '15:15'
+    },
+    {
+      key: 'MATH2063',
+      name: 'Multivariable Calculus',
+      location: 'French',
+      defaultDays: ['Wed'],
+      defaultStart: '14:00',
+      defaultEnd: '15:15'
+    },
+    {
+      key: 'MATH2073',
+      name: 'Ordinary Differential Equations',
+      location: 'Teachers Dyer',
+      defaultDays: ['Wed'],
+      defaultStart: '14:00',
+      defaultEnd: '15:15'
+    },
+    {
+      key: 'MATH4012',
+      name: 'Differential Geometry and Topology',
+      location: 'French',
+      defaultDays: ['Wed'],
+      defaultStart: '14:00',
+      defaultEnd: '15:15'
+    },
+    {
+      key: 'MATH5107',
+      name: 'Partial Differential Equations and Fourier Analysis',
+      location: 'French',
+      defaultDays: ['Wed'],
+      defaultStart: '14:00',
+      defaultEnd: '15:15'
+    },
+    {
+      key: 'MATH5101',
+      name: 'Advanced Calculus I',
+      location: 'French',
+      defaultDays: ['Wed'],
+      defaultStart: '14:00',
+      defaultEnd: '15:15'
+    },
+    {
+      key: 'MATH5102',
+      name: 'Advanced Calculus II',
+      location: 'French',
+      defaultDays: ['Wed'],
+      defaultStart: '14:00',
+      defaultEnd: '15:15'
+    },
+    {
+      key: 'MATH3002',
+      name: 'Introduction to Analysis',
+      location: 'French',
+      defaultDays: ['Wed'],
+      defaultStart: '14:00',
+      defaultEnd: '15:15'
+    },
+    {
+      key: 'MATH5105',
+      name: 'Introduction to Complex Analysis',
+      location: 'French',
+      defaultDays: ['Wed'],
+      defaultStart: '14:00',
+      defaultEnd: '15:15'
     }
   ];
 
