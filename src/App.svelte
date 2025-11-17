@@ -11,7 +11,9 @@
       location: 'Old Chem',
       defaultDays: ['Mon', 'Wed', 'Fri'],
       defaultStart: '09:00',
-      defaultEnd: '10:15'
+      defaultEnd: '10:15',
+      year: 'First',
+      semester: 'Fall'
     },
     {
       key: 'CHEM1040L',
