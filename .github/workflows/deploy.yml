@@ -1,22 +1,17 @@
-# Deploy the built Vite site to GitHub Pages
 name: Deploy static content to Pages
 
 on:
-  # Deploy on every push to the default branch
   push:
     branches: ['main']
-  # Allow manual runs from the Actions tab
   workflow_dispatch:
 
-# Permissions needed for GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Only one deployment at a time
 concurrency:
-  group: 'pages'
+  group: "pages"
   cancel-in-progress: true
 
 jobs:
@@ -30,7 +25,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
@@ -44,8 +39,10 @@ jobs:
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
-      - name: Upload built site
+      - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
